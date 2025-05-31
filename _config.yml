@@ -28,9 +28,11 @@ twitter_username: jekyllrb
 github_username:  sivadinesh2001
 
 # Build settings
-theme: jekyll-theme-cayman
+#theme: minima 
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme  # Required for remote themes
 
 # Exclude from processing.
 # The following items will not be processed, by default.
